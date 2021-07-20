@@ -1,4 +1,4 @@
 version: "3"
 services:
   nginx:
-    image: "redis:latest"
+    image: "nginx:latest"
