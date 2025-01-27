@@ -4,4 +4,3 @@ services:
     image: "nginx:latest"
     environment:
       - foo=bar
-      - cow=moo
