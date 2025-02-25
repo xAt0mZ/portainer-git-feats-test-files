@@ -1,0 +1,9 @@
+services:
+  nats:
+    image: nats
+    env_file:
+      - .env
+    environment:
+      - A=${A}
+      - B=${B}
+      - C=${C}

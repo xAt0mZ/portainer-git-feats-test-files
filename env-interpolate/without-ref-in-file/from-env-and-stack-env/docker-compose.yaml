@@ -2,4 +2,6 @@ services:
   nats:
     image: nats
     environment:
-      - foo=${FOO}
+      - A=${A}
+      - B=${B}
+      - C=${C}
