@@ -1,0 +1,96 @@
+{
+  "Name": "without-ref-in-file-from-env-and-stack-env-ui",
+  "Env": [
+    "A=ui",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
+  "Env": [
+    "A=env",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "without-ref-in-file-from-stack-env-ui",
+  "Env": [
+    "A=ui",
+    "B=",
+    "C="
+  ]
+}
+{
+  "Name": "without-ref-in-file-from-stack-env-no-ui",
+  "Env": [
+    "A=",
+    "B=",
+    "C="
+  ]
+}
+{
+  "Name": "without-ref-in-file-from-env-ui",
+  "Env": [
+    "A=ui",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "without-ref-in-file-from-env-no-ui",
+  "Env": [
+    "A=env",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-env-and-stack-env-ui",
+  "Env": [
+    "A=ui",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
+  "Env": [
+    "A=env",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-stack-env-ui",
+  "Env": [
+    "A=ui",
+    "B=",
+    "C="
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-stack-env-no-ui",
+  "Env": [
+    "A=",
+    "B=",
+    "C="
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-env-ui",
+  "Env": [
+    "A=ui",
+    "B=env",
+    "C=env"
+  ]
+}
+{
+  "Name": "with-ref-in-file-from-env-no-ui",
+  "Env": [
+    "A=env",
+    "B=env",
+    "C=env"
+  ]
+}
