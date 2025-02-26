@@ -2,7 +2,75 @@
 
 This folder contains variations of compose definitions that can be deployed with Portainer.
 
-## Automating regression testing
+## Content of a test
+
+- A `docker-compose.yaml` file
+```yaml
+services:
+  nats:
+    image: nats
+    environment:
+      - A=${A}
+      - B=${B}
+      - C=${C}
+```
+or
+```yaml
+services:
+  nats:
+    image: nats
+    env_file:
+      - .env
+    environment:
+      - A=${A}
+      - B=${B}
+      - C=${C}
+```
+
+- A `.env` file
+```
+A=env
+B=env
+```
+and / or a `stack.env` file
+```
+A=stack.env
+B=stack.env
+```
+
+## Automation testing
+
+`automate.sh` will run all the combinations in 2 variants
+- -no-ui
+- -ui
+
+The `-no-ui` variant will only deploy the stack file without specifying anything else.
+
+The `-ui` variant will deploy the stack file and will override `A=ui`.
+
+### What does it mean
+
+For each file we pass the 2 variables `A` and `B` to the compose file through the various env files.
+
+During the `-ui` variant we override the `A` variable, while letting the `B` variable untouched.
+
+This allows to test if the env file and UI variables are properly merged (`A` is overriden ; `B` is untouched)
+
+The `C` variable is never passed and is always inherited from the Portainer container env. See the [Notes](./README.md#notes) below.
+
+### Expected result
+
+- `-no-ui` variant
+  - A=env or stack.env
+  - B=env or stack.env
+  - C=whatever was passed to the Portainer container on startup
+
+- `-ui` variant
+  - A=ui
+  - B=env or stack.env
+  - C=whatever was passed to Portainer container on startup
+
+## Detecting regression
 
 Requirements:
 - `jq`
