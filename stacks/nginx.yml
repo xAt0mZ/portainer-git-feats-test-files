@@ -5,3 +5,4 @@ services:
     environment:
       - foo=bar
       - cow=moo
+      - cat=meow
