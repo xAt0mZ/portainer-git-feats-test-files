@@ -1,0 +1,24 @@
+services:
+  gr-dir:
+    image: busybox
+    entrypoint: cat /file
+    volumes:
+      - ./devices/groups/${PORTAINER_EDGE_GROUP}/file.txt:/file
+
+  gr-file:
+    image: busybox
+    entrypoint: cat /file
+    volumes:
+      - ./devices/groups/${PORTAINER_EDGE_GROUP}.txt:/file
+
+  id-dir:
+    image: busybox
+    entrypoint: cat /file
+    volumes:
+      - ./devices/ids/${PORTAINER_EDGE_ID}/file.txt:/file
+
+  id-file:
+    image: busybox
+    entrypoint: cat /file
+    volumes:
+      - ./devices/ids/${PORTAINER_EDGE_ID}.txt:/file
