@@ -68,7 +68,7 @@ The `C` variable is never passed and is always inherited from the Portainer cont
 - `-ui` variant
   - A=ui
   - B=env or stack.env
-  - C=whatever was passed to Portainer container on startup
+  - C=whatever was passed to the Portainer container on startup
 
 ## Detecting regression
 
