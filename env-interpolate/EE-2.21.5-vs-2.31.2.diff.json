@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-no-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-ui",
+    "EE-2.21.5.json": ["C=portainer-container-env"],
+    "EE-2.31.2.json": ["C="]
+  }
+]

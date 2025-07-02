@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-ui-unpacker",
+    "Env": ["A=ui", "B=env", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-ui",
+    "Env": ["A=ui", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
+    "Env": ["A=env", "B=env", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
+    "Env": ["A=env", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-ui-unpacker",
+    "Env": ["A=ui", "B=", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-ui",
+    "Env": ["A=ui", "B=", "C=portainer-container-env"]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-no-ui-unpacker",
+    "Env": ["A=", "B=", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-no-ui",
+    "Env": ["A=", "B=", "C=portainer-container-env"]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-ui-unpacker",
+    "Env": ["A=ui", "B=env", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-ui",
+    "Env": ["A=ui", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-no-ui-unpacker",
+    "Env": ["A=env", "B=env", "C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-no-ui",
+    "Env": ["A=env", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-ui-unpacker",
+    "Env": ["A=ui", "B=env", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-ui",
+    "Env": ["A=ui", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
+    "Env": ["A=env", "B=env", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
+    "Env": ["A=env", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-ui-unpacker",
+    "Env": ["A=ui", "B=", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-ui",
+    "Env": ["A=ui", "B=", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-no-ui-unpacker",
+    "Env": ["A=", "B=", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-no-ui",
+    "Env": ["A=", "B=", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-ui-unpacker",
+    "Env": ["A=ui", "B=env", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-ui",
+    "Env": ["A=ui", "B=env", "C=portainer-container-env"]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-no-ui-unpacker",
+    "Env": ["A=env", "B=env", "C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-no-ui",
+    "Env": ["A=env", "B=env", "C=portainer-container-env"]
+  }
+]

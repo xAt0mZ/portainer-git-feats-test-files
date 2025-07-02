@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-and-stack-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "with-ref-in-file-from-stack-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-and-stack-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-no-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-no-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-ui",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  },
+  {
+    "Name": "without-ref-in-file-from-stack-env-ui-unpacker",
+    "CE-2.21.5.json": ["C=portainer-container-env"],
+    "CE-2.31.2.json": ["C="]
+  }
+]
