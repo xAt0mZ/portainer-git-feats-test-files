@@ -1,62 +1,110 @@
 [
   {
     "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=env", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "with-ref-in-file-from-env-and-stack-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "with-ref-in-file-from-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=env", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "with-ref-in-file-from-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "with-ref-in-file-from-stack-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=", "B=", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "with-ref-in-file-from-stack-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=env", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-env-and-stack-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=env", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=env", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-stack-env-no-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=", "B=", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   },
   {
     "Name": "without-ref-in-file-from-stack-env-ui",
-    "EE-2.21.5.json": ["C=portainer-container-env"],
-    "EE-2.31.2.json": ["C="]
+    "EE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
+    "EE-2.31.2": ["A=ui", "B=", "C="],
+    "Diff": {
+      "EE-2.21.5": ["C=portainer-container-env"],
+      "EE-2.31.2": ["C="]
+    }
   }
 ]
