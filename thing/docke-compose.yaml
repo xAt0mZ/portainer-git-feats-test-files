@@ -1,0 +1,7 @@
+services:
+  nats:
+    image: nats
+    env_file:
+      - ./myconfigs/${PORTAINER_EDGE_ID}/stack.env
+    volumes:
+      - 
