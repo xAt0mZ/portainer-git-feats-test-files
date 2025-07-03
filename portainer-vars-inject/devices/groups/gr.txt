@@ -1,0 +1,1 @@
+content from devices/groups/gr.txt
