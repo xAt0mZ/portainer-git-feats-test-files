@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-usage="Usage: $0 API_TOKEN PORTAINER_HOST endpointID"
+# Clean the test resources from the environment
+
+usage="Usage: $0 API_TOKEN PORTAINER_HOST ENDPOINT_ID"
 
 token=${1?$usage}
 shift

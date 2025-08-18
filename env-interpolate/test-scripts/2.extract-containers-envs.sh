@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-usage="Usage: $0 API_TOKEN PORTAINER_HOST endpointID"
+# Extract the docker environments of the test containers
+
+usage="Usage: $0 API_TOKEN PORTAINER_HOST ENDPOINT_ID"
 
 token=${1?$usage}
 shift

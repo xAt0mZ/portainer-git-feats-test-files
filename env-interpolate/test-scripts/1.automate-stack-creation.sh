@@ -1,12 +1,16 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-usage="Usage: $0 API_TOKEN PORTAINER_HOST endpointID"
+# Automate the creation of stacks to test all the combinations of scenarios
+
+usage="Usage: $0 API_TOKEN PORTAINER_HOST ENDPOINT_ID"
 
 token=${1?$usage}
 shift
 host=${1?$usage}
 shift
 endpointID=${1?$usage}
+shift
+[ -n "$1" ] && isCE=true || isCE=false
 shift
 
 url="${host}/api/stacks/create/standalone/repository?endpointId=$endpointID"
@@ -62,16 +66,18 @@ function test() {
       }'
   )
 
-  curl -H "x-api-key: $token" -s --json "$payload" "$url"
+  curl -H "x-api-key: $token" -s --json "$payload" "$url" >/dev/null
 }
 
 for root in "${roots[@]}"; do
   for dir in "${dirs[@]}"; do
     for variant in "${variants[@]}"; do
       for relative in "${relatives[@]}"; do
+        if [[ $isCE == true ]] && [[ $relative == true ]]; then
+          continue
+        fi
         echo " >> Testing: $root $dir $variant $relative"
         test $root $dir $variant $relative
-        echo ""
       done
     done
   done

@@ -1,266 +1,350 @@
 [
   {
     "Name": "with-ref-in-file-from-env-and-stack-env-no-ui",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
+    "output/CE-2.21.5": ["A=env", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=env", "B=env", "C="],
+    "output/CE-2.27.2": ["A=env", "B=env", "C="],
+    "output/CE-2.27.3": ["A=env", "B=env", "C="],
+    "output/CE-2.27.4": ["A=env", "B=env", "C="],
+    "output/CE-2.27.5": ["A=env", "B=env", "C="],
+    "output/CE-2.27.6": ["A=env", "B=env", "C="],
+    "output/CE-2.27.7": ["A=env", "B=env", "C="],
+    "output/CE-2.27.8": ["A=env", "B=env", "C="],
+    "output/CE-2.27.9": ["A=env", "B=env", "C="],
+    "output/CE-2.31.2": ["A=env", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["A=", "B=", "C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "with-ref-in-file-from-env-and-stack-env-ui",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=env", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-env-and-stack-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "with-ref-in-file-from-env-no-ui",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
+    "output/CE-2.21.5": ["A=env", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=env", "B=env", "C="],
+    "output/CE-2.27.2": ["A=env", "B=env", "C="],
+    "output/CE-2.27.3": ["A=env", "B=env", "C="],
+    "output/CE-2.27.4": ["A=env", "B=env", "C="],
+    "output/CE-2.27.5": ["A=env", "B=env", "C="],
+    "output/CE-2.27.6": ["A=env", "B=env", "C="],
+    "output/CE-2.27.7": ["A=env", "B=env", "C="],
+    "output/CE-2.27.8": ["A=env", "B=env", "C="],
+    "output/CE-2.27.9": ["A=env", "B=env", "C="],
+    "output/CE-2.31.2": ["A=env", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["A=", "B=", "C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "with-ref-in-file-from-env-ui",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=env", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "with-ref-in-file-from-stack-env-no-ui",
-    "CE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=", "B=", "C="],
-    "CE-2.31.2": ["A=", "B=", "C="],
+    "output/CE-2.21.5": ["A=", "B=", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=", "B=", "C="],
+    "output/CE-2.27.2": ["A=", "B=", "C="],
+    "output/CE-2.27.3": ["A=", "B=", "C="],
+    "output/CE-2.27.4": ["A=", "B=", "C="],
+    "output/CE-2.27.5": ["A=", "B=", "C="],
+    "output/CE-2.27.6": ["A=", "B=", "C="],
+    "output/CE-2.27.7": ["A=", "B=", "C="],
+    "output/CE-2.27.8": ["A=", "B=", "C="],
+    "output/CE-2.27.9": ["A=", "B=", "C="],
+    "output/CE-2.31.2": ["A=", "B=", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-stack-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=", "B=", "C="],
-    "CE-2.31.2": ["A=", "B=", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "with-ref-in-file-from-stack-env-ui",
-    "CE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=", "C="],
-    "CE-2.31.2": ["A=ui", "B=", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "with-ref-in-file-from-stack-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=", "C="],
-    "CE-2.31.2": ["A=ui", "B=", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-env-and-stack-env-no-ui",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
+    "output/CE-2.21.5": ["A=env", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=env", "B=env", "C="],
+    "output/CE-2.27.2": ["A=env", "B=env", "C="],
+    "output/CE-2.27.3": ["A=env", "B=env", "C="],
+    "output/CE-2.27.4": ["A=env", "B=env", "C="],
+    "output/CE-2.27.5": ["A=env", "B=env", "C="],
+    "output/CE-2.27.6": ["A=env", "B=env", "C="],
+    "output/CE-2.27.7": ["A=env", "B=env", "C="],
+    "output/CE-2.27.8": ["A=env", "B=env", "C="],
+    "output/CE-2.27.9": ["A=env", "B=env", "C="],
+    "output/CE-2.31.2": ["A=env", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-env-and-stack-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["A=", "B=", "C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-env-and-stack-env-ui",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=env", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-env-and-stack-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-env-no-ui",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
+    "output/CE-2.21.5": ["A=env", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=env", "B=env", "C="],
+    "output/CE-2.27.2": ["A=env", "B=env", "C="],
+    "output/CE-2.27.3": ["A=env", "B=env", "C="],
+    "output/CE-2.27.4": ["A=env", "B=env", "C="],
+    "output/CE-2.27.5": ["A=env", "B=env", "C="],
+    "output/CE-2.27.6": ["A=env", "B=env", "C="],
+    "output/CE-2.27.7": ["A=env", "B=env", "C="],
+    "output/CE-2.27.8": ["A=env", "B=env", "C="],
+    "output/CE-2.27.9": ["A=env", "B=env", "C="],
+    "output/CE-2.31.2": ["A=env", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=env", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=env", "B=env", "C="],
-    "CE-2.31.2": ["A=env", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["A=", "B=", "C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-env-ui",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=env", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=env", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=env", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=env", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=env", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=env", "C="],
-    "CE-2.31.2": ["A=ui", "B=env", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-stack-env-no-ui",
-    "CE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=", "B=", "C="],
-    "CE-2.31.2": ["A=", "B=", "C="],
+    "output/CE-2.21.5": ["A=", "B=", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=", "B=", "C="],
+    "output/CE-2.27.1": ["A=", "B=", "C="],
+    "output/CE-2.27.2": ["A=", "B=", "C="],
+    "output/CE-2.27.3": ["A=", "B=", "C="],
+    "output/CE-2.27.4": ["A=", "B=", "C="],
+    "output/CE-2.27.5": ["A=", "B=", "C="],
+    "output/CE-2.27.6": ["A=", "B=", "C="],
+    "output/CE-2.27.7": ["A=", "B=", "C="],
+    "output/CE-2.27.8": ["A=", "B=", "C="],
+    "output/CE-2.27.9": ["A=", "B=", "C="],
+    "output/CE-2.31.2": ["A=", "B=", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-stack-env-no-ui-unpacker",
-    "CE-2.21.5": ["A=", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=", "B=", "C="],
-    "CE-2.31.2": ["A=", "B=", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   },
   {
     "Name": "without-ref-in-file-from-stack-env-ui",
-    "CE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=", "C="],
-    "CE-2.31.2": ["A=ui", "B=", "C="],
+    "output/CE-2.21.5": ["A=ui", "B=", "C=portainer-env"],
+    "output/CE-2.27.0": ["A=ui", "B=", "C="],
+    "output/CE-2.27.1": ["A=ui", "B=", "C="],
+    "output/CE-2.27.2": ["A=ui", "B=", "C="],
+    "output/CE-2.27.3": ["A=ui", "B=", "C="],
+    "output/CE-2.27.4": ["A=ui", "B=", "C="],
+    "output/CE-2.27.5": ["A=ui", "B=", "C="],
+    "output/CE-2.27.6": ["A=ui", "B=", "C="],
+    "output/CE-2.27.7": ["A=ui", "B=", "C="],
+    "output/CE-2.27.8": ["A=ui", "B=", "C="],
+    "output/CE-2.27.9": ["A=ui", "B=", "C="],
+    "output/CE-2.31.2": ["A=ui", "B=", "C="],
     "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
-    }
-  },
-  {
-    "Name": "without-ref-in-file-from-stack-env-ui-unpacker",
-    "CE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
-    "CE-2.27.9": ["A=ui", "B=", "C="],
-    "CE-2.31.2": ["A=ui", "B=", "C="],
-    "Diff": {
-      "CE-2.21.5": ["C=portainer-container-env"],
-      "CE-2.27.9": ["C="],
-      "CE-2.31.2": ["C="]
+      "output/CE-2.21.5": ["C=portainer-env"],
+      "output/CE-2.27.0": ["C="],
+      "output/CE-2.27.1": ["C="],
+      "output/CE-2.27.2": ["C="],
+      "output/CE-2.27.3": ["C="],
+      "output/CE-2.27.4": ["C="],
+      "output/CE-2.27.5": ["C="],
+      "output/CE-2.27.6": ["C="],
+      "output/CE-2.27.7": ["C="],
+      "output/CE-2.27.8": ["C="],
+      "output/CE-2.27.9": ["C="],
+      "output/CE-2.31.2": ["C="]
     }
   }
 ]

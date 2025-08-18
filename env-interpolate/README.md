@@ -5,6 +5,7 @@ This folder contains variations of compose definitions that can be deployed with
 ## Content of a test
 
 - A `docker-compose.yaml` file
+
 ```yaml
 services:
   nats:
@@ -14,7 +15,9 @@ services:
       - B=${B}
       - C=${C}
 ```
+
 or
+
 ```yaml
 services:
   nats:
@@ -28,11 +31,14 @@ services:
 ```
 
 - A `.env` file
+
 ```
 A=env
 B=env
 ```
+
 and / or a `stack.env` file
+
 ```
 A=stack.env
 B=stack.env
@@ -41,6 +47,7 @@ B=stack.env
 ## Automation testing
 
 `automate.sh` will run all the combinations in 2 variants
+
 - -no-ui
 - -ui
 
@@ -61,6 +68,7 @@ The `C` variable is never passed and is always inherited from the Portainer cont
 ### Expected result
 
 - `-no-ui` variant
+
   - A=env or stack.env
   - B=env or stack.env
   - C=whatever was passed to the Portainer container on startup
@@ -73,6 +81,7 @@ The `C` variable is never passed and is always inherited from the Portainer cont
 ## Detecting regression
 
 Requirements:
+
 - `jq`
 - a Portainer access token
 
@@ -88,24 +97,28 @@ Full example when running a 2.27.0 instance on `localhost:9000` where the local 
 
 ```sh
 ./automate.sh ptr_O/rmZJwYIBTo/B9IV0FFO7kmaRFnEELc7XrPKJ44BpU= localhost:9000 3
-./extract.sh > 2.27.0
-./diff.sh 2.27.0
+./extract.sh ptr_O/rmZJwYIBTo/B9IV0FFO7kmaRFnEELc7XrPKJ44BpU= localhost:9000 3 > 2.27.0
+./diff.sh 2.27.0 output/CE-2.21.5.json
 ```
 
 If there are no diffs, the `diff.sh` script will display
+
 ```json
 []
 ```
 
 If there are differences the script will display an array of
+
 ```json
- {
-    "Name": "without-ref-in-file-from-stack-env-ui",
-    "EnvDiff": [
-      "C=portainer-container-env", // expected value (2.21.5)
-      "C=" // your value (2.27.0 for example)
-    ]
+{
+  "Name": "without-ref-in-file-from-stack-env-ui-unpacker",
+  "2.27.0": ["A=ui", "B=", "C="],
+  "output/CE-2.21.5": ["A=ui", "B=", "C=portainer-container-env"],
+  "Diff": {
+    "2.27.0": ["C="],
+    "output/CE-2.21.5": ["C=portainer-container-env"]
   }
+}
 ```
 
 ## Notes
@@ -146,4 +159,3 @@ then any variable of docker.env could be used when deploying stacks.
 ```
 
 In 2.21.5 it was possible to use the entire Portainer environment when deploying stack files, as we were using the compose binary from inside the Portainer container. However starting from 2.24.0 (when we removed the compose binary and used the compose lib instead) this is not possible anymore.
-
