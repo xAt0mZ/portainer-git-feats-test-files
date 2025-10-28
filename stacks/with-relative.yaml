@@ -1,0 +1,6 @@
+version: "3"
+services:
+  relative:
+    image: nginx:latest
+    volumes:
+      - ./with-relative.yaml:/self.yaml
