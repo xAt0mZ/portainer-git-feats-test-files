@@ -1,0 +1,3 @@
+services:
+  nginx:
+    image: ${REGISTRY_URL:-docker.io}/nginx:latest
