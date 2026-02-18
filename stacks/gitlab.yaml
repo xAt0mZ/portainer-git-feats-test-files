@@ -1,0 +1,3 @@
+services:
+  hw:
+    image: registry.gitlab.com/xat0mz/registrytest/hello-world
