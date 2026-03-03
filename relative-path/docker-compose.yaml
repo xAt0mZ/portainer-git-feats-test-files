@@ -1,5 +1,0 @@
-services:
-  app:
-    image: ubuntu:22.04
-    volumes:
-      - /tmp/host-directory:/internal

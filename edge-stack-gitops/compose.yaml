@@ -4,21 +4,29 @@ services:
     entrypoint: cat /file
     volumes:
       - ./devices/groups/${PORTAINER_EDGE_GROUP}/file.txt:/file
+    environment:
+      - INTERPOLATE=${FROM_EDGE_GROUP}
 
   gr-file:
     image: busybox
     entrypoint: cat /file
     volumes:
       - ./devices/groups/${PORTAINER_EDGE_GROUP}.txt:/file
+    environment:
+      - INTERPOLATE=${FROM_EDGE_GROUP}
 
   id-dir:
     image: busybox
     entrypoint: cat /file
     volumes:
       - ./devices/ids/${PORTAINER_EDGE_ID}/file.txt:/file
+    environment:
+      - INTERPOLATE=${FROM_EDGE_ID}
 
   id-file:
     image: busybox
     entrypoint: cat /file
     volumes:
       - ./devices/ids/${PORTAINER_EDGE_ID}.txt:/file
+    environment:
+      - INTERPOLATE=${FROM_EDGE_ID}
