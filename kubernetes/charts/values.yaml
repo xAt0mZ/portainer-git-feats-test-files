@@ -1,0 +1,8 @@
+hello-world:
+  enabled: false
+
+nginx:
+  enabled: false
+
+nats:
+  enabled: true
