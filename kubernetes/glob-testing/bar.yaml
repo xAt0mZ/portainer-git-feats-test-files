@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bar-pod
+spec:
+  containers:
+    - image: nats
+      name: bar-pod

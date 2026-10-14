@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: a-pod
+spec:
+  containers:
+    - image: nats
+      name: a-pod
