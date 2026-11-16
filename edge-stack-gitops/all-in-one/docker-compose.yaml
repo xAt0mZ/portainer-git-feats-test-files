@@ -1,0 +1,57 @@
+services:
+  all-in-one-watcher:
+    image: alpine
+    volumes:
+      - ./${PORTAINER_EDGE_GROUP}:/grp_dir
+      - ./${PORTAINER_EDGE_GROUP}.txt:/grp_file
+      - ./${PORTAINER_EDGE_ID}:/id_dir
+      - ./${PORTAINER_EDGE_ID}.txt:/id_file
+    command: >
+      sh -c "while true; do
+        echo '========================================';
+        echo '1a. Listing /grp_dir directory:';
+        ls -la /grp_dir;
+        
+        echo '----------------------------------------';
+        echo '1b. cat each file in /grp_dir:';
+        for f in /grp_dir/*; do
+          if [ -f \"$$f\" ]; then
+            echo \"--- Content of $$(basename \"$$f\") ---\";
+            cat \"$$f\";
+            echo '';
+          fi;
+        done;
+
+        echo '----------------------------------------';
+        echo '2. Cat mounted file (/grp_file):';
+        if [ -f /grp_file ]; then
+          cat /grp_file;
+        else
+          echo 'grp_file not found.';
+        fi;
+
+        echo '----------------------------------------';
+        echo '3a. Listing /id_dir directory:';
+        ls -la /id_dir;
+        
+        echo '----------------------------------------';
+        echo '3b. cat each file in /id_dir:';
+        for f in /id_dir/*; do
+          if [ -f \"$$f\" ]; then
+            echo \"--- Content of $$(basename \"$$f\") ---\";
+            cat \"$$f\";
+            echo '';
+          fi;
+        done;
+        
+        echo '----------------------------------------';
+        echo '4. cat mounted file (/id_file):';
+        if [ -f /id_file ]; then
+          cat /id_file;
+        else
+          echo 'id_file not found.';
+        fi;
+        
+        echo '========================================';
+        sleep 10;
+      done"
